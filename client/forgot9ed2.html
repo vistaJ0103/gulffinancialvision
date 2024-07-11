@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<!-- Mirrored from alsaudiwealthtrade.com/client/forgot.php?lang=en by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Jun 2024 08:14:01 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8">
+<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+<title>Gulf Wealth Trading - Forgot login details?</title>
+<link rel="icon" href="root/img/favicon.ico" type="image/x-icon"/>
+<link href="assets/css/style1b26.css?v2" rel="stylesheet" />
+<link href="root/css/color1b26.css?v2" rel="stylesheet" />
+<link href="assets/css/reg.css" rel="stylesheet" />
+<link href="assets/plugins/web-fonts/icons.css" rel="stylesheet" />
+</head>
+
+<body  class="recreaccoa">
+
+<div class="page"><div class="page-single"><div class="container"><div class="row"><div class="col mx-auto">
+<div class="text-center mb-6"><a href="../index9ed2.html?lang=en"><img src="root/img/logo.svg" class="header-brand-img"></a></div>
+
+	            
+
+<div class="row justify-content-center"><div class="col-md-8"><div class="card-group mb-0">
+<div class="card p-4"><div class="card-body">
+<form method="post"  action="https://alsaudiwealthtrade.com/client/action/forgot.php?lang=en" id="forgotform">
+<p>Forgot login details? Write you username or Email<br>And you will get all account login details in your E-Mail</p>
+<div class="input-group mb-3">
+<span class="input-group-addon"><i class="fa fa-user"></i></span>
+<input type="text" class="form-control" name="username" placeholder="Username / Email address">
+</div>
+
+	<input type="hidden" name="lang" value="en">
+	
+<div class="row">
+<div class="col-12">
+<input type="submit" name="forgetPassword" class="btn brandbackgroundcolor whitecolor btn-block" value="Send Details">
+</div>
+<div style="margin-top:20px;" class="col-12">
+<a href="login9ed2.html?lang=en" style="color:#474747;font-size:16px !important;" class="btn btn-link box-shadow-0 px-0"><i class='fa fa-arrow-left'></i> Get back to login page</a>
+</div>
+</div>
+</form>
+
+</div>
+</div>
+
+</div>
+</div>
+</div></div></div></div></div></div>
+
+
+
+<script src="assets/js/vendors/jquery.min.js"></script>
+<script type="text/javascript">
+function showError(e,r){e.parent("div").addClass("has-error"),e.siblings(".help-block").length>0?e.siblings(".help-block").html(r[0]):e.after('<p class="help-block">'+r[0]+"</p>")}function removeError(e){e.parent("div").removeClass("has-error"),e.siblings(".help-block").length>0&&e.siblings(".help-block").remove()}$(document).ajaxError(function(){return $(".log").text("Triggered ajaxError handler."),!1}),function(e){smValidator=function(r,n,t,a){function i(r,n){var t=0;if("object"==jQuery.type(n))for(var a in n){var i=n[a],o=[],l=e("#"+r).find('[name="'+a+'"]');if("object"==jQuery.type(i))for(var s in i){var d=i[s];if("object"==jQuery.type(d)&&l.length>0){var u=l.val().length;"notEmpty"==s?u<1&&(t++,o.push(d.message)):u>0&&"stringLength"==s&&(u<d.min||d.max&&u>d.max)&&(t++,o.push(d.message))}}o.length>0?showError(l,o):removeError(l)}return t}for(var o in n)e("#"+r+' [name="'+o+'"]').on("keyup",function(){var t=e(this).attr("name"),a={};a[t]=n[t],i(r,a)}),e("#"+r+' [name="'+o+'"]').on("change",function(){var t=e(this).attr("name"),a={};a[t]=n[t],i(r,a)});if(2==t)return e(".loading").length>0&&e(".loading").fadeOut(),!(i(r,n)>0);3==t?e("#"+r).on("submit",function(r){e(".loading").length>0&&e(".loading").fadeIn();var t=e(this).attr("id"),l=i(t,n);if(e("#"+t).find('[type="submit"]').prop("disabled",!0),0===l){var s=e("#"+t).serialize(),d=e("#"+t).attr("method"),u=e("#"+t).attr("action");e.ajax({type:d,url:u,data:s,success:function(r){if(e("#"+t).find('[type="submit"]').removeAttr("disabled"),"object"==jQuery.type(n))for(o in n)e("#"+t).find('[name="'+o+'"]').val("");e(".loading").length>0&&e(".loading").fadeOut(),a({isSuccess:!0,response:r})},error:function(r){e("#"+t).find('[type="submit"]').removeAttr("disabled");var n=r.responseJSON.errors,a="";for(var i in n){var o=e("#"+t).find('[name="'+i+'"]');o.length>0?showError(o,n[i]):a+=n[i][0]+" \n"}""!=a&&alert(a),e(".loading").length>0&&e(".loading").fadeOut()}})}else e("#"+t).find('[type="submit"]').removeAttr("disabled"),e(".loading").length>0&&e(".loading").fadeOut();return!1}):e("#"+r).on("submit",function(e){if(i(r,n)>0)return!1})}}(jQuery),String.prototype.replaceAll=function(e,r){return this.replace(new RegExp(e,"g"),r)};
+(function ($) { var rules = {
+username: {notEmpty: {message: "This field is required"},
+stringLength: {max: 80,message: "Maximum length in this field : 80 letter"}},
+};
+smValidator("forgotform", rules, 1);})(jQuery);
+</script>
+
+
+</body>
+
+<!-- Mirrored from alsaudiwealthtrade.com/client/forgot.php?lang=en by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Jun 2024 08:14:01 GMT -->
+</html>
